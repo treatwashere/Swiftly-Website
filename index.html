@@ -8,9 +8,29 @@
 </html>
 
 <style>
-  body 
-  {
-    background-color: blue
+ body {
+    /* Link to your image */
+    background-image: url('https://raw.githubusercontent.com/treatwashere/Swiftly-Website/refs/heads/main/images.png'); 
+    
+    /* Ensures the image covers the entire screen perfectly */
+    background-size: cover; 
+    
+    /* Centers the image on the screen */
+    background-position: center; 
+    
+    /* Prevents the image from repeating */
+    background-repeat: no-repeat; 
+    
+    /* CRITICAL: Keeps the background locked in place while scrolling */
+    background-attachment: fixed; 
+    
+    /* Optional: Sets a fallback color in case the image fails to load */
+    background-color: #1a1a1a; 
+    
+    /* Removes default browser margins so the image goes edge-to-edge */
+    margin: 0;
+    padding: 0;
+}
 }
 
 .title {
